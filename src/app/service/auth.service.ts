@@ -10,7 +10,7 @@ import { environment } from 'src/environments/environment';
   providedIn: 'root'
 })
 export class AuthService {
-  URL = environment.URL + 'auth/';
+  URL = 'https://backendportafoliodaa.herokuapp.com/auth/';
   constructor(private httpClient: HttpClient) { }
   
   public nuevo(nuevoUsuario: NuevoUsuario): Observable<any>{

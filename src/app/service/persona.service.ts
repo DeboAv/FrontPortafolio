@@ -8,7 +8,7 @@ import { Persona } from '../model/Persona';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = environment.URL + "persona/"
+  URL = "https://backendportafoliodaa.herokuapp.com/persona/";
 
   constructor(private http: HttpClient) { }
 
