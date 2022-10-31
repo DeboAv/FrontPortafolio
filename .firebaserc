@@ -1,14 +1,5 @@
 {
   "projects": {
-    "default": "frontendportafoliodaa"
-  },
-  "targets": {
-    "frontendportafoliodaa": {
-      "hosting": {
-        "ProyectoFinal_Avram_Debora": [
-          "frontendportafoliodaa"
-        ]
-      }
-    }
+    "default": "frontendportafoliodaa2"
   }
 }
