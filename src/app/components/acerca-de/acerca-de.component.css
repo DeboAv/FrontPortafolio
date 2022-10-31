@@ -10,29 +10,36 @@ div{
 /*de 576 para arriba*/
 @media (min-width: 576px){
     #fotoPerfil{
-        position: absolute;
-        width: 15%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 3%;
-        top: 312px; 
+        margin: 7px;
+    }
+    #nombre {
+        font-weight: bold;
+        margin-top: 30%;
+    }
+    #descripcion {
+        margin:auto;
     }
 }
 
 /*dem 0 a 575 */
 @media (max-width: 576px){
     #fotoPerfil{
-        position: absolute;
-        width:30%;
+        width:50%;
         border-radius: 100%;
         box-shadow: 3px 3px 3px gray;
         left: 33%;
-        top: 190px; 
+        margin: 7px;
+    }
+    
+    #nombre {
+    font-weight: bold;
     }
 }
 
 #nombre {
     font-weight: bold;
-    margin-top: 30%;
 }
 
